@@ -14,9 +14,25 @@ Across the different models, the performance varies for each semantic class. For
 - **IndiVnet main/**:Contains code for end-to-end model implementation using all the scripts.
 
 
+## IndiVnet (Our Architecture)
+
+| Class             | TP     | FP   | TN      | FN   | F1-Score | Accuracy |  IoU  |  MIoU  |
+| ----------------- | ------ | ---- | ------- | ---- | -------- | -------- | ----- | ------ |
+| Drivable          | 25008  | 655  | 102077  | 446  | 0.9850   | 0.9914   | 0.958 |        |
+| Vehicle           | 2134   | 634  | 3091    | 446  | 0.8192   | 0.8287   | 0.664 |        |
+| Roadside Object   | 2052   | 2005 | 3513    | 2911 | 0.5255   | 0.5310   | 0.294 | 0.6998 |
+| Far Object        | 10420  | 1949 | 59983   | 3498 | 0.9907   | 0.9282   | 0.657 |        |
+| Sky               | 16878  | 213  | 6341    | 1305 | 0.9015   | 0.9386   | 0.917 |        |
+
+
+
 ## Getting Started
 
 ### Prerequisites
 Ensure you have the following dependencies installed:
 - Python 3.x
 - Required libraries (specified in `requirements.txt`)
+
+Install the dependencies using pip:
+```bash
+pip install -r requirements.txt
