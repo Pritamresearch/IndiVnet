@@ -24,7 +24,7 @@ Across the different models, the performance varies for each semantic class. For
 | Far Object        | 10420  | 1949 | 59983   | 3498 | 0.9907   | 0.9282   | 0.657 |        |
 | Sky               | 16878  | 213  | 6341    | 1305 | 0.9015   | 0.9386   | 0.917 |        |
 
-![benchmark]("F:\PhD\IndiVnet\benchmark.png")
+![benchmark]("images/benchmark.png")
 
 
 ## Getting Started
