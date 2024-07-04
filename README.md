@@ -12,3 +12,11 @@ Across the different models, the performance varies for each semantic class. For
 -**train/**: Contains scripts for training the models.
 -**test/**: Includes scripts for testing the models.
 -**IndiVnet main/**:Contains code for end-to-end model implementation using all the scripts.
+
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the following dependencies installed:
+- Python 3.x
+- Required libraries (specified in `requirements.txt`)
